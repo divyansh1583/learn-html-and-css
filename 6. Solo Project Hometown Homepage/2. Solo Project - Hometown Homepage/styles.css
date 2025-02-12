@@ -7,12 +7,78 @@ LIGHT BLUE: #457B9D
 DARK BLUE: #1D3557
 
 */
-
-body {
+body{
     margin: 0;
-    text-align: center;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color:#1D3557;
+}
+/*Section 1*/
+
+#section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/torshov.jpg');
+    background-size: cover;
+    height: 33.33vh;
+    background-position: center;
+}
+#section1 h1{
+    background: #1D3557;
+    color: #F1FAEE;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+#section1 h2{
+    background: #457B9D;
+    color: #F1FAEE;
+    padding: 5px 10px;
+    width: 60%;
+    text-align: center ;
+    border-radius: 10px;
+
 }
 
-img {
+/*Section 2*/
+#section2{
+    background: #F1FAEE;
+    height: 33.33vh;
+}
+#section2 h2{
+    text-align: center;
+    margin: 0;
+}
+.activity-wrapper{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.activity img{
     width: 100px;
+}
+/*Section 3*/
+#section3{
+    background: #FFFFFF;
+    height: 33.33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section3 .card{
+    background-color: #A8DADC;
+    width: 35%;
+    height: 80%;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card img{
+    height: 90%;
+}
+.card details{
+color: #1D3557;
 }
